@@ -627,7 +627,7 @@ function bootstrap3_searchform($ajax = true, $autocomplete = true) {
 
     if (! bootstrap3_conf('showSearchForm')) return false;
 
-    print '<form action="'.wl().'" accept-charset="utf-8" class="navbar-form navbar-left search" id="dw__search" method="get" role="search"><div class="no">';
+    print '<form action="'.wl().'" accept-charset="utf-8" class="navbar-form navbar-left search" id="dw__search" method="get" role="search" style="margin-top: 13px; margin-bottom: 13px;"><div class="no">';
 
     print '<div class="form-group">';
 
